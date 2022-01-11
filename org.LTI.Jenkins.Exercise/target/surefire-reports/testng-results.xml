@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-11T21:37:41 IST" name="Suite" finished-at="2022-01-11T21:39:23 IST" duration-ms="102258">
+    <groups>
+    </groups>
+    <test started-at="2022-01-11T21:37:41 IST" name="Test" finished-at="2022-01-11T21:39:23 IST" duration-ms="102258">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="browser()[pri:0, instance:test.LoginTest@74751b3]" started-at="2022-01-11T21:37:41 IST" name="browser" finished-at="2022-01-11T21:37:45 IST" duration-ms="4318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method signature="login()[pri:0, instance:test.LoginTest@74751b3]" started-at="2022-01-11T21:37:45 IST" name="login" finished-at="2022-01-11T21:37:50 IST" duration-ms="4737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTest@74751b3]" started-at="2022-01-11T21:37:50 IST" name="getResult" finished-at="2022-01-11T21:37:50 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTest.login()[pri:0, instance:test.LoginTest@74751b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ClickCatalog()[pri:1, instance:test.LoginTest@74751b3]" started-at="2022-01-11T21:37:50 IST" name="ClickCatalog" finished-at="2022-01-11T21:37:51 IST" duration-ms="1221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCatalog -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTest@74751b3]" started-at="2022-01-11T21:37:51 IST" name="getResult" finished-at="2022-01-11T21:37:51 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickCatalog status=SUCCESS method=LoginTest.ClickCatalog()[pri:1, instance:test.LoginTest@74751b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="DataDriven()[pri:2, instance:test.LoginTest@74751b3]" started-at="2022-01-11T21:37:51 IST" name="DataDriven" finished-at="2022-01-11T21:39:18 IST" duration-ms="86821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataDriven -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTest@74751b3]" started-at="2022-01-11T21:39:18 IST" name="getResult" finished-at="2022-01-11T21:39:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DataDriven status=SUCCESS method=LoginTest.DataDriven()[pri:2, instance:test.LoginTest@74751b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="logout()[pri:3, instance:test.LoginTest@74751b3]" started-at="2022-01-11T21:39:18 IST" name="logout" finished-at="2022-01-11T21:39:19 IST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:test.LoginTest@74751b3]" started-at="2022-01-11T21:39:19 IST" name="getResult" finished-at="2022-01-11T21:39:19 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=LoginTest.logout()[pri:3, instance:test.LoginTest@74751b3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:test.LoginTest@74751b3]" started-at="2022-01-11T21:39:19 IST" name="closeApp" finished-at="2022-01-11T21:39:23 IST" duration-ms="4269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="closeExtent()[pri:0, instance:test.LoginTest@74751b3]" started-at="2022-01-11T21:39:23 IST" name="closeExtent" finished-at="2022-01-11T21:39:28 IST" duration-ms="4417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtent -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
