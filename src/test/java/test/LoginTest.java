@@ -38,6 +38,7 @@ public class LoginTest extends BaseTest {
 	@Test(priority = 2)
 	public void DataDriven() throws IOException, Throwable {
 		logger = extent.createTest("To verify Product is added");
+		Thread.sleep(3000);
 		pp.ProductsTestData();
 	}
 	@Test(priority = 3)
