@@ -85,9 +85,11 @@ public class Products extends BaseTest {
 	@FindBy(xpath = "//button[@data-dismiss='alert']")
 	WebElement closebtn;
 
-	public void ClickCatalogProducts() {
+	public void ClickCatalogProducts() throws InterruptedException {
 		ClickCatalogIcon.click();
+		Thread.sleep(3000);
 		Products.click();
+		Thread.sleep(3000);
 		}
 
 	

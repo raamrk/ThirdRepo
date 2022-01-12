@@ -29,7 +29,7 @@ public class LoginTest extends BaseTest {
 
 
 	@Test(priority = 1)
-	public void ClickCatalog() {
+	public void ClickCatalog() throws InterruptedException {
 		logger = extent.createTest("To verify Catalog and Product is clicked");
 		pp.ClickCatalogProducts();
 	}

@@ -5,6 +5,7 @@
     <classes>
       <class name="test.LoginTest">
         <methods>
+          <include name="ClickCatalog"/>
           <include name="closeApp"/>
           <include name="closeExtent"/>
           <include name="browser"/>
